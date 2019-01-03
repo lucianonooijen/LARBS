@@ -24,12 +24,6 @@ Arch-based distros such as Manjaro, Antergos and Parabola (although Parabola,
 which uses slightly different repositories might miss one or two minor
 programs).
 
-LARBS, in its default form where it installs my own dotfiles, is not
-compatible with or maintained for Virtual Machines. Due to particularities of
-i3 on Arch Linux within a Virtual Machines, X will not start properly. If you
-know a fix for this, feel free to share, but I do not use Virtual Machines so
-am not planning on troubleshooting a fix.
-
 Here are some of the things LARBS sets up:
 
 - Installs i3-gaps, a tiling window manager, with my fully featured
@@ -123,12 +117,7 @@ for people who read the csv or who want to install my dotfiles manually.
 Depending on your own build, you may want to tactically order the programs in
 your programs file. LARBS will install from the top to the bottom.
 
-As it is now, don't include commas in your program descriptions since this is
-a csv. LARBS will not parse it correctly (I think...). It won't crash, but the
-dialog display will be truncated. You're welcome to pull a fix for this, but
-please make the end result take csvs of consensus format, since I want my progs
-file to be a true csv so it will display properly on Github (trust me it
-counts!).
+If you include commas in your program descriptions, be sure to include double quotes around the whole description to ensure correct parsing.
 
 ### The script itself
 
@@ -148,3 +137,10 @@ effectively with the `newperms` function. At the end of installation,
 `newperms` removes those settings, giving the user the ability to run only
 several basic sudo commands without a password (`shutdown`, `reboot`,
 `pacman -Syu`).
+
+## To-do list
+
+- Provide documentation on how to update dotfiles from remote repository.
+- Enable tap to click.
+- Keyboard luminosity script.
+- Add notification icons?
