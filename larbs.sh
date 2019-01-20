@@ -179,6 +179,9 @@ newperms "%wheel ALL=(ALL) NOPASSWD: ALL"
 dialog --title "LARBS Installation" --infobox "Installing \`basedevel\` and \`git\` for installing other software." 5 70
 pacman --noconfirm --needed -S base-devel git >/dev/null 2>&1
 
+# Use all cores for compilation.
+sed -i "s/-j2/-j$(nproc)/;s/^#MAKEFLAGS/MAKEFLAGS/" /etc/makepkg.conf
+
 manualinstall $aurhelper
 
 # The command that does all the installing. Reads the progs.csv file and
