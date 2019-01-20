@@ -201,6 +201,11 @@ dialog --infobox "Installing vim plugins..." 4 50
 (sleep 30 && killall vim) &
 sudo -u "$name" vim -E -c "PlugUpdate|visual|q|q" >/dev/null
 
+# Install nvim `plugged` plugins.
+dialog --infobox "Installing nvim plugins..." 4 50
+(sleep 30 && killall nvim) &
+sudo -u "$name" nvim -E -c "PlugUpdate|visual|q|q" >/dev/null
+
 # Enable services here.
 serviceinit NetworkManager cronie
 
