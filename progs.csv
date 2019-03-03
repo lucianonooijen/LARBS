@@ -81,6 +81,7 @@ G,https://github.com/lukesmithxyz/st.git,"is my custom build of suckless's termi
 ,less,"allows you to view the first x lines of a file."
 ,most,"allows you to view man pages with highlighting."
 ,exa,"is an ls alternative built in Rust."
+,fd,"is a simple, fast and user-friendly alternative to find"
 ,filezilla,"is an ftp file explorer."
 ,gcc,"is the GNU C Compiler."
 ,gcc-libs,"adds libraries to GCC."
