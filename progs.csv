@@ -111,6 +111,7 @@ G,https://github.com/lukesmithxyz/st.git,"is my custom build of suckless's termi
 ,cups,"An free software printing solution"
 ,cups-pdf,"Allows you to 'print' to PDF files"
 ,system-config-printer,'A GUI for adding printers'
+,vifm,"is a lighter and more minimalist Ranger alternative"
 A,snapd,"allows you to install bloaded software without hassle."
 A,jre8,"is a complete piece of shit I unfortunately need to run some software."
 A,screenkey,"allows you to show pressed keys on screen."
