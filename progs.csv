@@ -88,6 +88,8 @@ G,https://github.com/lukesmithxyz/st.git,"is my custom build of suckless's termi
 ,gcc-libs,"adds libraries to GCC."
 ,gitlab-runner,"is a local GitLab Runner."
 ,go,"is a statically-typed language with syntax loosely derived from that of C."
+,python3,"is a slow, but very easy to use scripting language"
+,python-pip,"is a package manager for the Python programming language"
 ,hugo,"is a static site builder based on GoLang."
 ,neofetch,"allows you to create /r/unixporn computer info."
 ,neovim,"is a new Vim editor I sometimes use."
