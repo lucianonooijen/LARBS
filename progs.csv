@@ -91,6 +91,7 @@ G,https://github.com/lukesmithxyz/st.git,"is my custom build of suckless's termi
 ,python3,"is a slow, but very easy to use scripting language"
 ,python-pip,"is a package manager for the Python programming language"
 ,hugo,"is a static site builder based on GoLang."
+,rofi,"is a program launcher"
 ,neofetch,"allows you to create /r/unixporn computer info."
 ,neovim,"is a new Vim editor I sometimes use."
 ,mutt,"is a terminal based email client."
