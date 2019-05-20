@@ -78,7 +78,7 @@ G,https://github.com/lukesmithxyz/st.git,"is my custom build of suckless's termi
 ,code,"is a bloaded but very great code editor."
 ,dbeaver,"is a GUI based database viewer."
 ,docker,"is a computer program that performs operating-system-level virtualization also known as containerization."
-,rust,"is a newish programming language capable of replacing C."
+,rustup,"is a newish programming language capable of replacing C."
 ,less,"allows you to view the first x lines of a file."
 ,most,"allows you to view man pages with highlighting."
 ,exa,"is an ls alternative built in Rust."
