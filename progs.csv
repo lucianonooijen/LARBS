@@ -103,6 +103,7 @@ G,https://github.com/lukesmithxyz/st.git,"is my custom build of suckless's termi
 ,zsh,"is a Bash alternative."
 ,zsh-syntax-highlighting,"allows zsh syntax highlighting."
 ,thefuck,"is a tool that fixes your typos in the terminal"
+,sxhkd,"is a hotkey daemon"
 ,ttf-lato,"is the font Bytecode uses."
 ,ttf-fira-mono,"is another font."
 ,ttf-fira-sans,"is another font."
