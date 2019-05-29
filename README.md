@@ -140,7 +140,10 @@ several basic sudo commands without a password (`shutdown`, `reboot`,
 
 ## To-do list
 
+- Add own Suckless tools
+- Improve dotfile installation
 - Provide documentation on how to update dotfiles from remote repository.
 - Enable tap to click.
 - Keyboard luminosity script.
 - Add notification icons?
+- Clean progs
