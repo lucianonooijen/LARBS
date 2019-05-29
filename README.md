@@ -12,6 +12,11 @@ bash larbs.sh
 
 That's it.
 
+## Dotfiles
+
+For documentation on my dotfiles, you can check my [dotfile
+repo](https://github.com/lucianonooijen/dotfiles).
+
 ## What is LARBS?
 
 LARBS is a script that autoinstalls and autoconfigures a fully-functioning
@@ -141,7 +146,6 @@ several basic sudo commands without a password (`shutdown`, `reboot`,
 ## To-do list
 
 - Improve dotfile installation
-- Provide documentation on how to update dotfiles from remote repository.
 - Enable tap to click.
 - Keyboard luminosity script.
 - Add notification icons?
